@@ -15,6 +15,7 @@ def check_installation():
         print("✅ OpenCV version:", cv2.__version__)
         print("✅ MoviePy version:", version("moviepy"))
         print("✅ Pydub version:", pkg_resources.get_distribution("pydub").version)
+        print("✅ Tkinter is installed and working!")
     except Exception as e:
         print("❌ Error:", e)
 
